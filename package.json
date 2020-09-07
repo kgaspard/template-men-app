@@ -1,0 +1,23 @@
+{
+  "name": "menapp",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node -r esm ./bin/www",
+    "devstart": "nodemon -r esm ./bin/www"
+  },
+  "dependencies": {
+    "config": "^3.3.1",
+    "connect-mongo": "^3.2.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^8.2.0",
+    "ejs": "~2.6.1",
+    "esm": "^3.2.25",
+    "express": "~4.16.1",
+    "express-session": "^1.17.1",
+    "http-errors": "~1.6.3",
+    "mongoose": "^5.10.3",
+    "morgan": "~1.9.1"
+  }
+}

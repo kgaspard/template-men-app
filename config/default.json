@@ -1,0 +1,7 @@
+{
+    "app": {
+        "name": "My App",
+        "use_db": false,
+        "port": 3000
+    }
+}
